@@ -1,10 +1,9 @@
 package dev.mrcabbagestick;
 
-public class StrikethroughText implements Text{
-    private Text text;
+public class StrikethroughText extends TextDecorator{
 
     public StrikethroughText(Text text) {
-        this.text = text;
+        super(text);
     }
 
     @Override

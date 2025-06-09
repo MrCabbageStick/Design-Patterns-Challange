@@ -1,10 +1,9 @@
 package dev.mrcabbagestick;
 
-public class ItalicText implements Text{
-    private Text text;
+public class ItalicText extends TextDecorator{
 
     public ItalicText(Text text) {
-        this.text = text;
+        super(text);
     }
 
     @Override

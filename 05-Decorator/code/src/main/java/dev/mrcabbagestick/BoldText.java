@@ -1,10 +1,8 @@
 package dev.mrcabbagestick;
 
-public class BoldText implements Text{
-    private Text text;
-
+public class BoldText extends TextDecorator{
     public BoldText(Text text) {
-        this.text = text;
+        super(text);
     }
 
     @Override
