@@ -1,4 +1,4 @@
-# Facade Design Pattern
+# Prototype Design Pattern
 
 Simple implementation of a Prototype for cloning people
 
